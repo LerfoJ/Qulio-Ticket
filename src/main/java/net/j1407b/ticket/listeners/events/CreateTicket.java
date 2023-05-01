@@ -92,9 +92,9 @@ public class CreateTicket extends ListenerAdapter {
 
                                        ticketChannel.sendMessage(
                                                author.getAsMention() + "\n" +
-                                                       "> به سرویس مشتریان ایران ماینکرفت خوش اومدید.\n" +
-                                                       "> لطفا صبور باشید, تیم مدیریتی بزودی با شما خواهد بود.\n" +
-                                                       "> اگر درخواست پایان دادن به تیکت را دارید دکمه ی **Close Ticket** را فشار دهید").addActionRow(closeTicket, claimTicket).queue();
+                                                       "> Welcome to the " + event.getGuild().getName + ".\n" +
+                                                       "> The Support will be with you as soon as it can be.\n" +
+                                                       "> If you want to close your ticket press **Close Ticket**").addActionRow(closeTicket, claimTicket).queue();
                                    } catch (Exception e) {
                                        Objects.requireNonNull(event.getJDA().getTextChannelById("1096419354553360465")).sendMessage(String.valueOf(e)).queue();
                                    }
