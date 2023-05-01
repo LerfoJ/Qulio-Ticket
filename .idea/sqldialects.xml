@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/net/j1407b/ticket/SQLiteDataSource.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/j1407b/ticket/commands/SetupTicket.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/j1407b/ticket/listeners/collectors/GuildCollector.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/j1407b/ticket/listeners/events/ClaimTicket.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/j1407b/ticket/listeners/events/CloseTicket.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/j1407b/ticket/listeners/events/CreateTicket.java" dialect="GenericSQL" />
+  </component>
+</project>
